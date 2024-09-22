@@ -1,0 +1,59 @@
+body{
+    justify-content: center;
+    align-items: center;
+    height: 100pv;
+    display: flex;
+    margin: 30px;
+}
+#mycalc{
+    background-color: rgb(34, 34, 34);
+    border-radius: 5px;
+    overflow: hidden;
+    max-width: 500px;
+}
+#display{
+    height: 90px;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: right;
+    background-color: rgb(57, 57, 57);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    padding: 0px;
+}
+button{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border: none;
+    margin: 5px;
+    font-size: 40px;
+    font-family:sans-serif;
+    cursor: pointer;
+}
+#keys{
+    padding: 10px;
+    text-align: center;
+}
+#C, #times, #divide, #plus, #minus{
+    background-color: orange;
+    font-size: 50px;
+}
+
+#zero, #one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #equal, #dot{
+    background-color: grey;
+}
+
+#C:hover, #times:hover, #divide:hover, #plus:hover, #minus:hover{
+    background-color: rgb(255, 202, 105);
+}
+#C:active, #times:active, #divide:active, #plus:active, #minus:active{
+    background-color: rgb(255, 231, 185);
+}
+#zero:hover, #one:hover, #two:hover, #three:hover, #four:hover, #five:hover, #six:hover, #seven:hover, #eight:hover, #nine:hover, #equal:hover, #dot:hover{
+    background-color: rgb(162, 162, 162);
+}
+#zero:active, #one:active, #two:active, #three:active, #four:active, #five:active, #six:active, #seven:active, #eight:active, #nine:active, #equal:active, #dot:active{
+    background-color: rgb(206, 205, 205);
+}
